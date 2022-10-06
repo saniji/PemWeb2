@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    max-width: 1366px;
+    max-height: 768px;
+}
+table {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+table tr:nth-child(even){
+  background-color: #2c11dd;
+}
+  
+table tr:hover {
+  background-color: gold;
+}
+  

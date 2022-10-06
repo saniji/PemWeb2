@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembelian Produk</title>
+    <link rel="stylesheet" href="produk.css">
+</head>
+<body>
+    <div class="pembeli">
+        <h1>Pembelian Produk</h1>
+        <h2>Data diri calon pembeli</h2>
+        <form action="produk.php" method="get">
+
+            <label for="nama">Nama</label><br>
+            <input type="text" id="nama" name="nama" class="input" required><br>
+
+            <label for="tanggal">Tanggal Pembelian</label><br>
+            <input type="date" name="tanggal_pembelian" class="input" required><br>
+
+            <label for="jenis">Jenis Kelamin</label><br>
+            <input type="radio" id="laki-laki" name="jenis_kelamin" value="Laki-laki" class="input_radio">
+            <label for="Laki-laki">Laki-laki</label>
+            <input type="radio" id="Perempuan" name="jenis_kelamin" value="Perempuan" class="input_radio">
+            <label for="Perempuan">Perempuan</label><br>
+
+            <label for="barang">Barang yang dibeli</label><br>
+            <input type="text" id="barang" name="barang" class="input" required><br>
+
+            <label for="pesan">Catatan(opsional)</label><br>
+            <textarea type="message" name="pesan" class="input_pesan"></textarea><br>
+
+            <input type="checkbox" required><label for="yakin">Apakah kamu sudah yakin?</label><br><br>
+            <button id="submit" class="submit">Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>

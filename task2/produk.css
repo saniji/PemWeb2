@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    max-width: 1366px;
+    max-height: 768px;
+    margin: auto;
+}
+.pembeli{
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+}
+h1{
+    color: purple;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    color: violet;
+
+}
+.input{
+    width: 500px;
+    height: 40px;
+    background-color: #F6F8FA;
+    border: #E7EEEF 2px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.input_radio{
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.input_pesan{
+    width: 500px;
+    height: 100px;
+    background-color: #F6F8FA;
+    border: #E7EEEF 2px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.submit{
+    background-color: #E95555;
+    border: none;
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+}
