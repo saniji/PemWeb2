@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Harian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Welcome To Daily List</h1>
+</header>
+    <div class="wrapper">
+        <div class="container shadow">
+            <h2 class="text-h2">Daily List</h2>
+            <form action="#" class="form" id="form">
+                <div class="form-group form-title">
+                    <label>Input Jam</label>
+                    <input type="text" id="clock" name="clock" placeholder="Clock" required>
+                </div>
+                <div class="form-group form-title">
+                    <label>Input Nama Kegiatan</label>
+                    <input type="text" id="activity" name="activity" placeholder="Activity" required>
+                </div>
+                <div>
+                    <input type="checkbox" id="readClear" name="readClear">
+                    <label for="readClear">Tambahkan</label>
+                </div>
+                <input type="submit" value="Tambahkan Kegiatan" name="Submit" class="btn-submit">
+            </form>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="form-group form-title">
+            <label>Mode Pencarian</label>
+            <input type="text" id="search" name="search" placeholder="Input Kata Pencarian">
+        </div>
+    </div>
+    <div class="wrapper">    
+        <div class="container">
+            <h2 class="container-header">List Jadwal</h2>
+            <div class="list-item" id="todos">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
